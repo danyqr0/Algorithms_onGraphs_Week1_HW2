@@ -22,7 +22,7 @@ int number_of_components(vector<vector<int> > &adj);
 *
 * "n" = number of vertices in the graph
 * "m" = number of edges in the graph
-*
+* "cc" =variable to track the number of connected elements.
 *******************************************************************************/
 size_t n, m, cc;
 pair <size_t,size_t> v_connected;
